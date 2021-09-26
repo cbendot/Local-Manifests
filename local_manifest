@@ -7,8 +7,10 @@
           fetch="https://github.com/ben863" />
 
   <!-- Sync trees -->
+        
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="ben863" revision="Q" clone-depth="1" />
 
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="ben863" revision="Q" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="ben863" revision="Q" clone-depth="1" />
 
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="ben863" revision="Q" clone-depth="1" />
 
