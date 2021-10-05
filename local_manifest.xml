@@ -11,7 +11,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="17.1" clone-depth="1" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="17.1" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="17.1" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="hmp" clone-depth="1" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="cbendot" revision="lineage-17.1-caf-msm8998" clone-depth="1" />
 
