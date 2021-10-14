@@ -6,6 +6,10 @@
 
           fetch="https://github.com/cbendot" />
 
+  <remote name="ronin"
+          
+          fetch="https://github.com/RONIN808" />
+
   <!-- Sync trees -->
         
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="18.1" clone-depth="1" />
