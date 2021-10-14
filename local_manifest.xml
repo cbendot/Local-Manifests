@@ -12,6 +12,12 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="18.1" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="lineage-18.1" clone-depth="1" />
+
+  <!-- Remove -->
+        <remove-project name="android_hardware_qcom_audio" />
+         
+  <!-- Clone Hals -->        
+        <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" remote="RE ONIN808" revision="eleven_caf_msm8998" clone-depth="1" />
         
 </manifest>
 
