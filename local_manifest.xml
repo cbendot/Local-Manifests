@@ -21,7 +21,7 @@
         <remove-project name="android_hardware_qcom_audio" />
          
   <!-- Clone Hals -->        
-        <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" remote="RE ONIN808" revision="eleven_caf_msm8998" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" remote="ronin" revision="eleven_caf_msm8998" clone-depth="1" />
         
 </manifest>
 
