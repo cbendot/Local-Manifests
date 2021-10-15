@@ -15,14 +15,10 @@
 
   <!-- Remove -->
         <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_display" />
          
   <!-- Clone Hals -->        
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="cbendot" revision="lineage-18.1-caf-msm8998" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="cbendot" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="cbendot" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
-     
+            
 </manifest>
 
 
