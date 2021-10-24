@@ -14,6 +14,12 @@
 
   <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/elastics-toolchain" name="elastics-toolchain" remote="cbendot" revision="main" clone-depth="1" />
+  
+  <!-- Remove -->
+        <remove-project name="hardware/qcom-caf/msm8998/audio" />
+  
+  <!-- Clone Hals -->        
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="cbendot" revision="lineage-18.1-caf-msm8998" clone-depth="1" />
 
 </manifest>
 
