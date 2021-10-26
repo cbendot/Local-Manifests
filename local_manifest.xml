@@ -14,7 +14,7 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="lineage-18.1" clone-depth="1" />
 
   <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-Elastics-Toolchain" name="elastics-toolchain" remote="cbendot" revision="main" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-Elastics-" name="elastics-toolchain" remote="cbendot" revision="main" clone-depth="1" />
         
   <!-- Remove -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />     
