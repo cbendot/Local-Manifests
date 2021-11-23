@@ -14,6 +14,7 @@
 
   <!-- Remove -->
         <remove-project name="hw_audio" />
+        <remove-project name="packages_apps_SoftAPManager" />
   
   <!-- Clone Hals -->        
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="cbendot" revision="lineage-18.1-caf-msm8998" clone-depth="1" />
