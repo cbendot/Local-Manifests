@@ -13,7 +13,7 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="lineage-18.1" clone-depth="1" />
 
   <!-- Remove -->
-        <remove-project name="xd_hardware_qcom_audio" />
+        <remove-project name="hw_audio" />
         <remove-project name="xd_packages_apps_SoftAPManager" />
   
   <!-- Clone Hals -->        
