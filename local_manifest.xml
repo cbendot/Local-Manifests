@@ -18,8 +18,6 @@
 
   <!-- Clone Hals -->        
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="cbendot" revision="lineage-18.1-caf-msm8998" clone-depth="1" />
-        <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="cbendot" revision="11" clone-depth="1" />
-
 </manifest>
 
 
