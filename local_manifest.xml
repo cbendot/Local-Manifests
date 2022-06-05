@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
+  <!-- Remotes -->
   <remote name="cbendot"
-
           fetch="https://github.com/cbendot" />
 
-  <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="18.1" clone-depth="1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="18.1" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="hmp" clone-depth="1" />
+  <!-- Trees -->
+  
+  <!-- Device Tree -->       
+  <project path="device/asus/X00TD" 
+           name="device_asus_X00TD.git" 
+           remote="cbendot" 
+           revision="18.1" />
+  
+  <!-- Common Tree -->
+  <project path="device/asus/sdm660-common" 
+           name="device_asus_sdm660-common.git"
+           remote="cbendot" 
+           revision="18.1" />
+ 
+ <!-- Vendor Tree -->
+ <project path="vendor/asus" 
+          name="proprietary_vendor_asus.git"
+          remote="cbendot" 
+          revision="18.1" />
+
+ <!-- Kernel Tree -->
+ <project path="kernel/asus/sdm660" 
+          name="kernel_asus_sdm660.git" 
+          remote="cbendot" 
+          revision="hmp" />
 
   <!-- Remove -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />     
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />     
 
   <!-- Clone Hals -->        
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="cbendot" revision="lineage-18.1-caf-msm8998" clone-depth="1" />  
+  <project path="hardware/qcom-caf/msm8998/audio" 
+           name="android_hardware_qcom_audio.git" 
+           remote="cbendot" 
+           revision="lineage-18.1-caf-msm8998" />  
 
 </manifest>
-
