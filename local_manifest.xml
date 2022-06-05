@@ -19,14 +19,14 @@
            remote="cbendot" 
            revision="18.1" />
  
- <!-- Vendor Tree -->
- <project path="vendor/asus" 
+  <!-- Vendor Tree -->
+  <project path="vendor/asus" 
           name="proprietary_vendor_asus.git"
           remote="cbendot" 
           revision="18.1" />
 
- <!-- Kernel Tree -->
- <project path="kernel/asus/sdm660" 
+  <!-- Kernel Tree -->
+  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
           remote="cbendot" 
           revision="hmp" />
