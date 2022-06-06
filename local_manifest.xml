@@ -23,7 +23,7 @@
   <project path="vendor/asus" 
           name="proprietary_vendor_asus"
           remote="cbendot" 
-          revision="19.1" />
+          revision="18.1" />
 
   <!-- Kernel Tree -->
   <project path="kernel/asus/sdm660" 
