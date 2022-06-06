@@ -31,13 +31,4 @@
           remote="cbendot" 
           revision="hmp" />
 
-  <!-- Remove -->
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />     
-
-  <!-- Clone Hals -->        
-  <project path="hardware/qcom-caf/msm8998/audio" 
-           name="android_hardware_qcom_audio.git" 
-           remote="cbendot" 
-           revision="lineage-18.1-caf-msm8998" />  
-
 </manifest>
