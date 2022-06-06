@@ -9,25 +9,25 @@
   
   <!-- Device Tree -->       
   <project path="device/asus/X00TD" 
-           name="device_asus_X00TD.git" 
+           name="device_asus_X00TD" 
            remote="cbendot" 
            revision="18.1" />
   
   <!-- Common Tree -->
   <project path="device/asus/sdm660-common" 
-           name="device_asus_sdm660-common.git"
+           name="device_asus_sdm660-common"
            remote="cbendot" 
            revision="18.1" />
  
   <!-- Vendor Tree -->
   <project path="vendor/asus" 
-          name="proprietary_vendor_asus.git"
+          name="proprietary_vendor_asus"
           remote="cbendot" 
-          revision="18.1" />
+          revision="19.1" />
 
   <!-- Kernel Tree -->
   <project path="kernel/asus/sdm660" 
-          name="kernel_asus_sdm660.git" 
+          name="kernel_asus_sdm660" 
           remote="cbendot" 
           revision="hmp" />
 
