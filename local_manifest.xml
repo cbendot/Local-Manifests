@@ -29,7 +29,7 @@
   <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660" 
           remote="cbendot" 
-          revision="hmp" />
+          revision="eas" />
   
   <!-- Remove -->
   <project name="crdroidandroid/android_vendor_crDroidOTA" />
