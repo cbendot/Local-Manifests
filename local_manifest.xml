@@ -34,7 +34,7 @@
   <!-- Remove -->
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
   
-  <!-- Clone Hal -->
+  <!-- Clone Hals -->
   <project path="vendor/crDroidOTA" 
            name="android_vendor_crDroidOTA"
            remote="cbendot"
