@@ -30,5 +30,14 @@
           name="kernel_asus_sdm660" 
           remote="cbendot" 
           revision="hmp" />
+  
+  <!-- Remove -->
+  <project name="crdroidandroid/android_vendor_crDroidOTA" />
 
+  <!-- clone Hall -->
+  <project path="vendor/crDroidOTA" 
+           name="android_vendor_crDroidOTA"
+           remote="cbendot"
+           revision="12.1" />
+  
 </manifest>
