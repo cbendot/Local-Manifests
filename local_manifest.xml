@@ -4,31 +4,26 @@
   <!-- Remotes -->
   <remote name="cbendot"
           fetch="https://github.com/cbendot" />
-
-  <!-- Trees -->
+  <remote name="gcam"
+          fetch="https://github.com/SonalSingh18" />
   
   <!-- Device Tree -->       
-  <project path="device/asus/X00TD" 
-           name="device_asus_X00TD" 
-           remote="cbendot" 
-           revision="18.1" />
-  
-  <!-- Common Tree -->
-  <project path="device/asus/sdm660-common" 
-           name="device_asus_sdm660-common"
-           remote="cbendot" 
-           revision="18.1" />
+  <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" />
+  <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="18.1" />
  
   <!-- Vendor Tree -->
-  <project path="vendor/asus" 
-          name="proprietary_vendor_asus"
-          remote="cbendot" 
-          revision="18.1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="18.1" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/asus/sdm660" 
-          name="kernel_asus_sdm660" 
-          remote="cbendot" 
-          revision="hmp" />
-
+  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="eas" />
+  
+  <!-- Remove -->
+  <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
+  <remove-project name="crdroidandroid/android_packages_apps_Updater" />
+  
+  <!-- Clone Hals -->
+  <project path="vendor/crDroidOTA" name="android_vendor_crDroidOTA" remote="cbendot" revision="12.1" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="cbendot" revision="12.1"/>
+  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="gcam" revision="arrow-12.1"
+           
 </manifest>
