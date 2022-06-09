@@ -7,31 +7,15 @@
   <remote name="arrow"
           fetch="https://github.com/ArrowOS" />
   
-  <!-- Trees -->
-  
   <!-- Device Tree -->       
-  <project path="device/asus/X00TD" 
-           name="device_asus_X00TD" 
-           remote="cbendot" 
-           revision="18.1" />
-  
-  <!-- Common Tree -->
-  <project path="device/asus/sdm660-common" 
-           name="device_asus_sdm660-common"
-           remote="cbendot" 
-           revision="12.1" />
+  <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" />
+  <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="12.1" />
  
   <!-- Vendor Tree -->
-  <project path="vendor/asus" 
-          name="proprietary_vendor_asus"
-          remote="cbendot" 
-          revision="19.1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/asus/sdm660" 
-          name="kernel_asus_sdm660" 
-          remote="cbendot" 
-          revision="eas" />
+  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="eas" />
   
   <!-- Remove -->
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
