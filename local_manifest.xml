@@ -33,11 +33,9 @@
   
   <!-- Remove -->
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
+  <remove-project name="android_hardware_qcom_audio" />
   
   <!-- Clone Hals -->
-  <project path="vendor/crDroidOTA" 
-           name="android_vendor_crDroidOTA"
-           remote="cbendot"
-           revision="12.1" />  
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="cbendot" revision="lineage-18.1-caf-msm8998" />
 
 </manifest>
