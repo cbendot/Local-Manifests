@@ -4,10 +4,6 @@
   <!-- Remotes -->
   <remote name="cbendot"
           fetch="https://github.com/cbendot" />
-  <remote name="arrow"
-          fetch="https://github.com/ArrowOS" />
-  <remote name="gcam"
-          fetch="https://github.com/SonalSingh18" />
   
   <!-- Device Tree -->       
   <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" />
@@ -26,6 +22,5 @@
   <!-- Clone Hals -->
   <project path="vendor/crDroidOTA" name="android_vendor_crDroidOTA" remote="cbendot" revision="12.1" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="cbendot" revision="12.1" />
-  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="gcam" revision="arrow-12.1" />
            
 </manifest>
