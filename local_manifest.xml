@@ -7,17 +7,9 @@
           fetch="https://github.com/cbendot" />
 
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="xdroid" clone-depth="1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="xdroid" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="unified" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="hmp" clone-depth="1" />
-
-  <!-- Remove -->
-        <remove-project name="hw_audio" />
-        <remove-project name="xd_packages_apps_SoftAPManager" />
-  
-  <!-- Clone Hals -->        
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="cbendot" revision="lineage-18.1-caf-msm8998" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="aosp" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="xdroid" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="hmp" />
 
 </manifest>
-
