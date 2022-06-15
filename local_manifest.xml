@@ -3,13 +3,15 @@
 <manifest>
 
   <remote name="cbendot"
-
           fetch="https://github.com/cbendot" />
-
+  <remote name="Gaurav241"
+          fetch="https://github.com/Gaurav241" />
+  
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="aosp" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="xdroid" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="hmp" />
-
+        <project path="packages/apps/GoogleCam" name="packages_apps_GoogleCamera" remote="Gaurav241" revision="eleven" />
+  
 </manifest>
