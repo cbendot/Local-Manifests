@@ -4,14 +4,14 @@
 
   <remote name="cbendot"
           fetch="https://github.com/cbendot" />
-  <remote name="arrow"
+  <remote name="devs"
           fetch="https://github.com/ArrowOS-Devices" />
   
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="12.1" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="arrow" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="arrow" revision="arrow-12.0_eas" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="devs" revision="arrow-12.0_eas" />
 
 </manifest>
 
