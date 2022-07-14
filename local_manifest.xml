@@ -3,11 +3,7 @@
 <manifest>
 
   <remote name="cbendot"
-          fetch="https://github.com/cbendot" />
-  <remote name="ben863"
-          fetch="https://gitlab.com/ben863" />
-  <remote name="12L-support"
-          fetch="https://gitlab.com/arrowos-project" />        
+          fetch="https://github.com/cbendot" />       
   
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="12.1" />
