@@ -4,8 +4,6 @@
 
   <remote name="cbendot"
           fetch="https://github.com/cbendot" />
-  <remote name="github"
-          fetch="https://github.com/Linomod" />
 
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="19.1" />
