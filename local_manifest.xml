@@ -9,7 +9,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="19.1" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
-        <project path="kernel/asus/sdm660" name="ArrowOS-Devices/android_kernel_asus_X01BD.git" remote="github" revision="arrow-12.0_eas" />
+        <project path="kernel/asus/sdm660" name="asus-sdm660-devs/android_kernel_asus_sdm660.git" remote="github" revision="lineage-19.1" />
 
   <!-- Remove -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
@@ -28,5 +28,3 @@
         <project path="packages/apps/Updater" name="Linomod/android_packages_apps_Updater.git" remote="github" revision="lineage-19.1" />
 
 </manifest>
-
-
