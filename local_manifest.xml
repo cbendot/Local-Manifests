@@ -4,7 +4,7 @@
 
   <!-- Sync trees -->        
          <project path="device/xiaomi/ginkgo" name="cbendot/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
-         <project path="vendor/xiaomi/ginkgo" name="cbendot/android_vendor_xiaomi_ginkgo.git" remote="github" revision="arrow-12.1" />
+         <project path="vendor/xiaomi/ginkgo" name="cbendot/android_vendor_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
          <project path="kernel/xiaomi/ginkgo" name="rasenss/android_kernel_xiaomi_ginkgo.git" remote="github" revision="twelve" />
 
   <!-- Remove -->
