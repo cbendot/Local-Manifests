@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Sync trees -->        
-        <project path="device/xiaomi/ginkgo" name="GinkgoHub/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
-        <project path="vendor/xiaomi/ginkgo" name="ArrowOS-Devices/android_vendor_xiaomi_ginkgo.git" remote="github" revision="arrow-12.1" />
+        <project path="device/xiaomi/ginkgo" name="cbendot/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
+        <project path="vendor/xiaomi/ginkgo" name="cbendot/android_vendor_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
         <project path="kernel/xiaomi/ginkgo" name="rasenss/android_kernel_xiaomi_ginkgo.git" remote="github" revision="twelve" />
         <project path="vendor/qcom/opensource/healthd-ext" name="ArrowOS/android_vendor_qcom_opensource_healthd-ext.git" remote="github" revision="arrow-12.1" />
 
