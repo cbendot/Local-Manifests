@@ -21,7 +21,7 @@
         <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
         <remove-project name="LineageOS/android_packages_apps_Updater" /> 
         <remove-project name="LineageOS/android_packages_apps_Dialer" />
-        <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+        <remove-project name="prebuilts/clang/host/linux-x86" />
 
   <!-- Clone Hals -->
         <project path="packages/apps/Settings" name="Linomod/android_packages_apps_Settings.git" remote="github" revision="lineage-19.1" />
