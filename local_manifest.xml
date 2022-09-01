@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remotes -->
+  <remote name="gitlab"
+        fetch="https://gitlab.com/crdroidandroid" />
+
   <!-- Sync trees -->        
         <project path="device/xiaomi/ginkgo" name="cbendot/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
         <project path="vendor/xiaomi/ginkgo" name="cbendot/android_vendor_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
