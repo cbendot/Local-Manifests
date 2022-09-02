@@ -11,7 +11,7 @@
         <project path="kernel/xiaomi/ginkgo" name="cbendot/android_kernel_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
         <project path="vendor/qcom/opensource/healthd-ext" name="ArrowOS/android_vendor_qcom_opensource_healthd-ext.git" remote="github" revision="arrow-12.1" />
         <project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera.git" remote="github" revision="arrow-12.0-a3" />
-        <project path="prebuilts/clang/host/linux-x86" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r445002.git" remote="gitlab" revision="12.1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r445002.git" remote="gitlab" revision="12.1" />
 
   <!-- Remove -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
@@ -21,7 +21,6 @@
         <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
         <remove-project name="LineageOS/android_packages_apps_Updater" /> 
         <remove-project name="LineageOS/android_packages_apps_Dialer" />
-        <remove-project name="prebuilts/clang/host/linux-x86" />
 
   <!-- Clone Hals -->
         <project path="packages/apps/Settings" name="Linomod/android_packages_apps_Settings.git" remote="github" revision="lineage-19.1" />
