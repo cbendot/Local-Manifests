@@ -2,15 +2,15 @@
 <manifest>
 
   <!-- Remotes -->
-  <remote name="ArrowOS-Devices"
-        fetch="https://github.com/ArrowOS-Devices" />
+  <remote name="crdroid"
+        fetch="https://gitlab.com/crdroidandroid" />
 
   <!-- Sync trees -->        
         <project path="device/xiaomi/ginkgo" name="cbendot/android_device_xiaomi_ginkgo.git" remote="github" revision="19.1" />
         <project path="vendor/xiaomi/ginkgo" name="cbendot/android_vendor_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" />
         <project path="kernel/xiaomi/ginkgo" name="cbendot/android_kernel_xiaomi_sm6125.git" remote="github" revision="lineage-19.1" />
         <project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera.git" remote="github" revision="arrow-12.0-a3" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="android_prebuilts_clang_host_linux-x86_clang-r445002" remote="crdroid" revision="12.1" />
 
   <!-- Remove -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
