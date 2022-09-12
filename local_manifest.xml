@@ -3,10 +3,12 @@
 <manifest>
 
   <remote name="cbendot"
-          fetch="https://github.com/cbendot" />       
+          fetch="https://github.com/cbendot" />
+  <remote name="Arrow-Devices"
+          fetch="https://github.com/ArrowOS-Devices"               
   
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="12.1" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Arrow-devices" revision="arrow-13.0" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="arrow" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="eas" />
