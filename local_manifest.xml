@@ -4,8 +4,8 @@
   <!-- Remotes -->
   <remote name="cbendot"
           fetch="https://github.com/cbendot" />
-  <remote name="ArrowOs-Devices"
-          fetch="https://github.com/ArrowOs-Devices" />
+  <remote name="ArrowOS-Devices"
+          fetch="https://github.com/ArrowOS-Devices" />
 
   <!-- Sync Trees -->       
   <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" />
