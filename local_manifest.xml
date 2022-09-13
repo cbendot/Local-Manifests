@@ -11,7 +11,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="13.0" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="arrow" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="eas" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="msm-4.4-eas" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
 
 </manifest>
