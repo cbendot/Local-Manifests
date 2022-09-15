@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Remotes -->  
-  <remote name="cbendot"
-        fetch="https://github.com/cbendot" />
-  <remote name="ArrowOS-Devices"
-        fetch="https://github.com/ArrowOS-Devices" />
   
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="cbendot" revision="19.1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="cbendot" revision="18.1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="cbendot" revision="msm-4.4-eas" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
+        <project path="device/asus/sdm660-common" name="cbendot/device_asus_sdm660-common.git" remote="github" revision="19.1" />
+        <project path="device/asus/X00TD" name="cbendot/device_asus_X00TD.git" remote="github" revision="18.1" />
+        <project path="vendor/asus" name="cbendot/proprietary_vendor_asus.git" remote="github" revision="19.1" />
+        <project path="kernel/asus/sdm660" name="cbendot/kernel_asus_sdm660.git" remote="github" revision="msm-4.4-eas" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1.git" remote="github" revision="arrow-11.0" />
 
   <!-- Remove -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
