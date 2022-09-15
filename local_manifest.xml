@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remotes -->  
   <remote name="cbendot"
-          fetch="https://github.com/cbendot" />
+        fetch="https://github.com/cbendot" />
   <remote name="ArrowOS-Devices"
         fetch="https://github.com/ArrowOS-Devices" />
   
