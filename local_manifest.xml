@@ -20,6 +20,7 @@
         <project path="packages/apps/Settings" name="cbendot/android_packages_apps_Settings.git" remote="github" revision="lineage-19.1" />
         <project path="frameworks/base" name="cbendot/android_frameworks_base.git" remote="github" revision="lineage-19.1" />
         <project path="system/core" name="cbendot/android_system_core.git" remote="github" revision="lineage-19.1" />
+        <project path="packages/apps/GameSpace" name="cbendot/android_packages_apps_GameSpace" remote="github" revision="12.1" />
         <project path="packages/apps/Backgrounds" name="Linomod/android_packages_apps_Backgrounds.git" remote="github" revision="lineage-19.1" />
         <project path="packages/apps/DocumentsUI" name="Linomod/android_packages_apps_DocumentsUI.git" remote="github" revision="lineage-19.1" />
         <project path="packages/apps/Updater" name="Linomod/android_packages_apps_Updater.git" remote="github" revision="lineage-19.1" />
